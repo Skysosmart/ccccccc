@@ -1,40 +1,35 @@
 body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex: 1 0 auto;
+    background-color: rgb(187, 210, 253);
 }
 
-.container {
-    display: flex;
-    width: 1000px;
-    height: 150px;
-    gap: 10px;
-    background-color: bisque;
+.ot {
+    background-position-x: center; backface-visibility: unset; background-color: rgb(101, 211, 255);
+    color: rgb(8, 71, 0);
+}
+.ouf {
+    color: blueviolet;
+}
+hr {
+    color: fuchsia;
+}
+div { 
+    background-color: rgb(0, 75, 94);
 }
 
-.flex-item {
-    /* flex: flex-grow flex-shrink flex-basis;*/
-    /* default 1 0 auto */
-    /* usually 1 1 0 */
-    flex: 1 0 auto;
-
-    background-color: cornflowerblue;
-    border: 2px solid black;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+p {
+    background-color: rgb(101, 211, 255); animation: cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-.flex-item:nth-child(1) {
-    order: 0;
+.ptt {
+    background-color: rgb(101, 211, 255);
+    border: 3px solid rgb(222, 231, 170);
+}
+.dahoodian {
+    border: 18px solid palegreen; 
 }
 
-.flex-item:nth-child(2) {
-    order: 0;
-}
-
-.flex-item:nth-child(3) {
-    order: 0;
+.CLICKCAMP {
+    border: 20px solid rgb(101, 211, 255);
+    width: 328px;
+    height: 156px;
 }
